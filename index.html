@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TamilselvanSrinivsan-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/25dd810004.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Video for the first page-->
+    <div id="v1">
+        <div class="container">
+            <nav>
+                <div class="logo">Tamilselvan S.</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#works">MyWorks</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>"Hi! I'm <span>Tamilselvan S</span>.I enjoy creating interesting stuff. Take a look at my portfolio to see what I've been working on!"</h1>
+            </div>
+            <div>
+                <video class="video-bg" autoplay loop muted >
+                    <source src="image/v1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+
+
+   <!-- Header for PortFolio 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Tamilselvan S.</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#works">MyWorks</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>"Hi! I'm <span>Tamilselvan S</span>.I enjoy creating interesting stuff. Take a look at my portfolio to see what I've been working on!"</h1>
+            </div>
+        </div>
+    </div>-->
+    <!-- About for PortFolio -->
+    <div id="about">
+        <div class="cointainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Formalphoto.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1  class="sub-title">About Me</h1>
+                    <br>
+                    <br>
+                    <p>"Hi, I'm Tamilselvan. I like to think a lot and I'm a friendly person.
+                         When I do work, I always try my best and finish it properly. 
+                        I'm good at solving basic problems and I work well with others. 
+                        I have lots of ideas too! Check out my portfolio to see what I've done so far."
+                    </p>
+                <br><br><br><br>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FrontEndDeveloper</span><br>&nbsp;Web app Development</li>
+                            <li><span>App Development</span><br>&nbsp;Buliding Apps using LowCode-NoCode  platforms </li>
+                            <li><span>Business Management</span><br>&nbsp;Planning the activities of a business</li>
+                        </ul>
+                    </div>
+                    <!--Experiance  -->
+
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>2022-2023</span><br>&nbsp;Internship at Mahat Labs</li>
+                            <li><span>2024-Current</span><br>&nbsp;Internship at Techno Hacks</li>
+
+
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-Current</span><br>&nbsp;B.E-ETE from Karpagam College of Engineering,Coimbatore.</li>
+                            <li><span>2021</span><br>&nbsp;12th from Bharathi Higher Secondary School,Reddipatti,Namakkal.</li>
+                            <li><span>2019</span><br>&nbsp;10th from Bharathi Vidyalaya Matric Higher Secondary School,Reddipatti,Namakkal.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I've finished a few web projects using HTML, CSS, and JavaScript. I'm good at making websites look nice and work well on different devices. I enjoy creating cool and user-friendly web pages, and I'm excited to share my work with you in the world of web development.</p>
+                    <a href="https://brainstation.io/career-guides/what-is-web-development#:~:text=Web%20development%2C%20also%20known%20as,web%20programming%2C%20and%20database%20management.">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>I have interested in App development so i selected a different way by choosing a Platform that is a NoCode-Lowcode Platform for app development in Mahat Labs.</p>
+                    <a href="https://www.ibm.com/topics/mobile-application-development">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-business-time"></i>
+                    <h2>Business Management</h2>
+                    <p>I have a vision for a future-oriented business management solution that leverages my skills in web and app development. Through my journey in creating user-friendly websites and applications, I am excited to apply my expertise to develop innovative solutions for efficient business management in the evolving landscape of technology.</p>
+                    <a href="https://emeritus.org/in/learn/what-is-business-management/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/weatherapp.png">
+                    <div class="layer">
+                        <h3>WeatherApp</h3>
+                        <p>Delivers real-time weather updates.</p>
+                        <a href="https://tamilselvansrinivasan.github.io/WeatherApp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/texttovoice.png">
+                    <div class="layer">
+                        <h3>TextToVoice</h3>
+                        <p>It is used to Convert the Text to Voice.</p>
+                        <a href="https://tamilselvansrinivasan.github.io/TextToVoice/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Snakegame.jpg">
+                    <div class="layer">
+                    <h3>SnakeGame</h3>
+                        <p>Have a fun time.</p>
+                        <a href="https://tamilselvansrinivasan.github.io/SnakeGame/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/celsiustofahrenheit.jpeg">
+                    <div class="layer">
+                    <h3>CelsiusToFahrenheit</h3>
+                        <p>It is used to Convert Celsius to Fahrenheit</p>
+                        <a href="https://tamilselvansrinivasan.github.io/CeliusToFahrenheitConventer/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/currencyconventer.jpg">
+                    <div class="layer">
+                        <h3>CurrencyConventor</h3>
+                        <p>conversion values of one currency to another quickly </p>
+                        <a href="https://tamilselvansrinivasan.github.io/CurrencyConventor/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="image/digitalclock.png">
+                    <div class="layer">
+                        <h3>DigitalClock</h3>
+                        <p>To get accurate Timing</p>
+                        <a href="https://tamilselvansrinivasan.github.io/DigitalClock/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="image/restaurant.jpg">
+                    <div class="layer">
+                        <h3>Restaurant</h3>
+                        <p>For the love of delicious food.</p>
+                        <a href="https://tamilselvansrinivasan.github.io/Restaurant/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="image/form2.png">
+                   <div class="layer">
+                        <h3>FormValidation</h3>
+                        <p>To validate your Form</p>
+                        <a href="https://tamilselvansrinivasan.github.io/FormValidation/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+
+            </div>
+
+            <a href="https://github.com/TamilselvanSrinivasan" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>stamilselvan650@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-9345311650</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/TamilselvanSrinivasan"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/tamilselvan-s-521838263/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/tamilselvan_srinivasan/?next=%2F&hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="image/Tamilselvan new Cv Resume.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © TamilselvanSrinivasan.</p>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwGu27w4NaW92S7ESAdzrEU2UpkwLoISpXSE0b_oMcreMuAQLJBoRULJzGFqUW0E2FIPw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        
+         const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML='Message Sent Successfully.'
+                setTimeout(function(){
+                    msg.innerHTML=''
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
+
